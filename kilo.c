@@ -39,7 +39,6 @@
 #define _GNU_SOURCE
 
 #include <ctype.h>
-#include <time.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <signal.h>
@@ -51,6 +50,7 @@
 #include <sys/time.h>
 #include <sys/types.h>
 #include <termios.h>
+#include <time.h>
 #include <unistd.h>
 
 /* Syntax highlight types */
